@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 15px 15px 0 15px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+    
+}
+
+.header-links{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header-links:hover{
+    text-decoration: underline;
+}
+
+.header-app{
+    vertical-align: middle;
+    opacity: 65%;
+}
+
+.header-app:hover{
+    opacity: 100%;
+    text-decoration: none;
+}
+
+#header-btn{
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #4285f4;
+    padding: 6px 12px;
+    border-radius: 2px;
+}
+
+#header-btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    /* width: 600px;
+    text-align: center; */
+}
+
+.google-logo{
+    display: block;
+    margin: 250px auto 20px;
+}
+
+.searchbar{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+#search{
+    width: 480px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 0 50px;
+
+}
+
+#search:hover{
+    box-shadow: 2px 2px rgba(211, 211, 211, 0.575);
+}
+
+#search:focus{
+    outline: none;
+}
+
+#mag{
+    height: 30px;
+    /* width: 30px; */
+    position: relative;
+    top: 12px;
+    right: 470px;
+}
+
+#mic{
+    height: 20px;
+    position: relative;
+    top: 6px;
+    right: 70px;
+}
+
+.btn-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-btn{
+    color: gray;
+    border: none;
+    border-radius: 2px;
+    margin-top: 30px;
+    padding: 12px;
+    /* width: 120px;
+    height: 30px; */
+}
+
+.btn1{
+    margin-right: 10px;
+}
+
+.main-btn:hover{
+    color: black;
+    border: none;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.par{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer{
+    font-size: 13px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+}
+
+.canada{
+    color: #5f6368;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 12px;
+    line-height: 30px;
+}
+
+.footer-links{
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 30px;
+}
+
+.footer-links:hover{
+    text-decoration: underline;
+}
